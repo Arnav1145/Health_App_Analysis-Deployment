@@ -3,6 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
 from datetime import datetime
+
+import seaborn as sns
+custom_params = {"axes.spines.right": False, "axes.spines.top": False}
+sns.set_theme(style="darkgrid", rc=custom_params)
+sns.set_context("notebook", font_scale=1.0, rc={"lines.linewidth": 2.5})
+
 # Assuming you have the functions and dataframes defined in the previous codes
 
 # Read the Health App dataset
