@@ -1,5 +1,5 @@
 # Health_App : Analysis and Deployment on Streamlit
-All the files related to the assignment
+All the files related to the analysis and deployment
 
 The dataset is downloaded from https://github.com/logpai/loghub/tree/master/HealthApp
 
